@@ -1,0 +1,133 @@
+/* Navbar */
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: adobe heiti std, sans-serif;
+	background-image: url(../background/bg2.png);
+}
+
+nav{
+	display: flex;
+	background-color: #ff7e00;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	width: 20%;
+	justify-content: space-between;
+	margin-right: 50px;
+
+
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+nav .judul {
+	color: white;
+	text-shadow: 3px 5px 3px black;
+	font-family: niagara solid, sans-serif;
+	font-size: 2em;
+	margin-left: 50px;
+	letter-spacing: 1px;
+
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+/*container*/
+
+.container{
+	width: 600px;
+	overflow-y: auto;
+	background-color: rgba(154,146,146,0.5);
+	margin: auto;
+	margin-top: 50px;
+}
+
+.container h4{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.container p{
+	padding: 10px;
+}
+
+/*layer*/
+
+.layer{
+	width: 320px;
+	margin: auto;
+	margin-top: 30px;
+	overflow-y: auto;
+	list-style: none;
+	text-align: center;
+	line-height: 50px; 
+	padding: 2px;
+	display: flex;
+}
+
+.satu{
+	list-style: none;
+	height: 50px;
+	width: 150px;
+	background-color: orange;
+	margin: 5px;
+}
+
+.dua{
+	list-style: none;
+	height: 50px;
+	width: 150px;
+	background-color: orange;
+	margin: 5px;
+}
+
+.back{
+	width: 160px;
+	margin: auto;
+	margin-top: 10px;
+	overflow-y: auto;
+	list-style: none;
+	text-align: center;
+	line-height: 50px; 
+	padding: 2px;	
+}
+
+.tiga{
+	list-style: none;
+	height: 50px;
+	width: 150px;
+	background-color: yellow;
+	margin: 5px;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;	
+
+}
+
+.container h4{
+	font-style: bold;
+	font-size: 20px;
+}
+.container span{
+	font-style: italic;
+}
